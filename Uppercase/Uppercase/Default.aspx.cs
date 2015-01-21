@@ -16,8 +16,12 @@ namespace Uppercase
 
         protected void CalcButton_Click(object sender, EventArgs e)
         {
+            
             string message = MessageTextBox.Text;
-            ResultLabel.Text = message;
+            //ResultLabel.Text = message;
+            int result = Model.TextAnalyzer.GetNumberOfCapitals(message);
+
+            ResultLabel.Text = result.ToString();
 
             MessageTextBox.Enabled = false;
             CalcButton.Enabled = false;
