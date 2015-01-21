@@ -11,7 +11,24 @@ namespace Uppercase
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ResetButton.Enabled = false;
+        }
 
+        protected void CalcButton_Click(object sender, EventArgs e)
+        {
+            string message = MessageTextBox.Text;
+            ResultLabel.Text = message;
+
+            MessageTextBox.Enabled = false;
+            CalcButton.Enabled = false;
+            ResetButton.Enabled = true;
+        }
+
+        protected void ResetButton_Click(object sender, EventArgs e)
+        {
+            MessageTextBox.Enabled = true;
+            CalcButton.Enabled = true;
+            ResetButton.Enabled = false;
         }
     }
 }
