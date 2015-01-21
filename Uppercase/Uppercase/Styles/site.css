@@ -1,0 +1,103 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0066ff), to(#89d7ff));
+    background: -moz-gradient(linear, left top, left bottom, from(#0066ff), to(#89d7ff));
+    background: -o-gradient(linear, left top, left bottom, from(#0066ff), to(#89d7ff));
+    background: -gradient(linear, left top, left bottom, from(#0066ff), to(#89d7ff));
+    min-height: 100%;
+}
+
+#form1 {
+    width: 500px; 
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#HeaderLabel {
+    font-size: 24px;
+}
+
+#content {
+    background-color: #f4fbff;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 20px #781803;
+}
+
+#MessageTextBox {
+    width: 100%;
+    height: 50px;
+}
+
+#controller {
+    display: inline-block;
+    width: 100%;
+}
+
+#ResultLabel {
+    float: left;
+    margin-top: 15px;
+    clear: both;
+    color: #0066ff;
+}
+
+#ResetButton {
+    margin-top: 5px;
+    margin-bottom:5px;
+    border: 1px solid #88daff;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    width: 25%;
+    color: #FAFAFA;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9fdffd), to(#138dc5));
+    -webkit-appearance: none;
+    -webkit-box-shadow: 1px 1px 1px #fff;
+    -webkit-border-radius: 0.5em;
+    float: right;
+}
+
+#CalcButton {
+    margin-top: 5px;
+    margin-bottom:5px;
+    border: 1px solid #88daff;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    width: 25%;
+    color: #FAFAFA;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9fdffd), to(#138dc5));
+    -webkit-appearance: none;
+    -webkit-box-shadow: 1px 1px 1px #fff;
+    -webkit-border-radius: 0.5em;
+    float: right;
+}
+
+#CalcButton:disabled {
+    border: 1px solid #D6D6D6;
+    color: #EDEDED;
+    background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#D6D6D6));
+    float: right;
+}
+
+#ResetButton:disabled {
+    border: 1px solid #D6D6D6;
+    color: #EDEDED;
+    background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#D6D6D6));
+    float: right;
+}
+
+#error {
+    width: 500px; 
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

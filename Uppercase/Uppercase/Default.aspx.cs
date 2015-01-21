@@ -21,7 +21,7 @@ namespace Uppercase
             //ResultLabel.Text = message;
             int result = Model.TextAnalyzer.GetNumberOfCapitals(message);
 
-            ResultLabel.Text = result.ToString();
+            ResultLabel.Text = result.ToString() + " uppercase letters.";
 
             MessageTextBox.Enabled = false;
             CalcButton.Enabled = false;
