@@ -10,9 +10,11 @@
     <form id="form1" runat="server">
     <div>
         <asp:TextBox ID="MessageTextBox" runat="server"></asp:TextBox>
+    </div>
+    <div>
         <asp:Label ID="ResultLabel" runat="server" Text=""></asp:Label>
-        <asp:Button ID="CalcButton" runat="server" Text="Send" OnClick="CalcButton_Click" />
         <asp:Button ID="ResetButton" runat="server" Text="Reset" OnClick="ResetButton_Click" />
+        <asp:Button ID="CalcButton" runat="server" Text="Send" OnClick="CalcButton_Click" />
     </div>
     </form>
 </body>
